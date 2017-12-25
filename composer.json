@@ -1,0 +1,29 @@
+{
+    "name": "silencedis/protected-members-accessor",
+    "description": "A helper that makes an access to protected class members easier.",
+    "type": "library",
+    "require": {
+        "php": ">=7.1"
+    },
+    "require-dev": {
+        "silencedis/phpunit-mock-helper": "v0.1.x-dev"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yurii Slobodeniuk",
+            "email": "silencedis@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "SilenceDis\\ProtectedMembersAccessor\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SilenceDis\\ProtectedMembersAccessor\\Test\\": "tests"
+        }
+    }
+}
